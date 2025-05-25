@@ -1,116 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ajayi Temitayo Eniola | Cybersecurity & Data Analysis</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f2f5;
-            color: #333;
-        }
-        header {
-            background-color: #1a1a2e;
-            color: #fff;
-            padding: 30px;
-            text-align: center;
-        }
-        section {
-            padding: 20px 40px;
-        }
-        h2 {
-            color: #1a1a2e;
-        }
-        a {
-            color: #0d6efd;
-            text-decoration: none;
-        }
-        .skills span {
-            display: inline-block;
-            background: #ddd;
-            padding: 6px 12px;
-            margin: 5px;
-            border-radius: 4px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajayi Temitayo Eniola | Cybersecurity & Data Analysis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background-color: #1a1a2e;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #16213e;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #0f3460;
+    }
+    footer {
+      background-color: #1a1a2e;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Ajayi Temitayo Eniola</h1>
-        <p>Cybersecurity Intern | Aspiring Red Teamer | Data Analyst</p>
-        <p>
-            <a href="mailto:ajayit154@gmail.com">ajayit154@gmail.com</a> |
-            09068746587 |
-            <a href="https://www.linkedin.com/in/temitayo-ajayi-9bb942366">LinkedIn</a> |
-            <a href="https://github.com/temiiiii">GitHub</a>
-        </p>
-    </header>
+  <header>
+    <h1>Ajayi Temitayo Eniola</h1>
+    <p>Cybersecurity & Data Analysis Intern | Red Teamer in Training</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a Cybersecurity and Data Analysis Intern passionate about ethical hacking, red teaming, and using data to make better decisions. I’m currently studying Computer Science at the University of Ilorin and have experience working with cyber tools like BeEF, Burp Suite, SEToolkit, and more. I’m also a former General Secretary for the Faculty INEC Body (CISSEC), where I managed election logistics and coordination.</p>
+    </section><section id="skills">
+  <h2>Skills</h2>
+  <p><strong>Technical:</strong> Python, Power BI, SEToolkit, BeEF, Burp Suite,Shodan.io, Bettercap</p>
+  <p><strong>Soft Skills:</strong> Communication, Teamwork, Problem-Solving</p>
+  <p><strong>Languages:</strong> English, Yoruba</p>
+</section>
 
-    <section>
-        <h2>About Me</h2>
-        <p>I’m a passionate and curious Computer Science student at the University of Ilorin. Currently interning in cybersecurity with a strong interest in Red Teaming. I'm also experienced in data analysis, and I love uncovering insights through tech.</p>
-    </section>
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>CyberGuardian Toolkit:</strong> A lightweight cybersecurity toolkit for small businesses to detect and address cyber threats quickly. Tools include Python, Wireshark, Burp Suite, BeEF, and SEToolkit.</li>
+    <li><strong>Jaundice Risk Factor Analysis:</strong> Used Power BI to analyze neonatal data and identify key risk factors affecting treatment decisions.</li>
+  </ul>
+</section>
 
-    <section>
-        <h2>Technical Skills</h2>
-        <div class="skills">
-            <span>Python</span>
-            <span>SEToolkit</span>
-            <span>BeEF</span>
-            <span>Burp Suite</span>
-            <span>Shodan.io</span>
-            <span>Bettercap</span>
-            <span>Power BI</span>
-        </div>
-    </section>
+<section id="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>Data Analysis Certificate – May 2025</li>
+    <li>INEC General Secretary Recognition – CISSEC – July 2024</li>
+    <li>In Progress: Google Cybersecurity Certificate – Coursera</li>
+    <li>In Progress: Python for Cybersecurity – Coursera</li>
+  </ul>
+</section>
 
-    <section>
-        <h2>Soft Skills</h2>
-        <ul>
-            <li>Communication</li>
-            <li>Problem Solving</li>
-            <li>Teamwork</li>
-        </ul>
-    </section>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:ajayit154@gmail.com">ajayit154@gmail.com</a></p>
+  <p>Phone: 09068746587</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/temitayo-ajayi-9bb942366" target="_blank">temitayo-ajayi</a></p>
+  <p>GitHub: <a href="https://github.com/temiiiii/temiiiii" target="_blank">temiiiii</a></p>
+</section>
 
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>Cybersecurity Intern</strong> – Metro Innovation Hub (March 2025 - Sept 2025)</li>
-            <li><strong>Data Analyst Intern</strong> – UI Design Studio (May 2025)</li>
-            <li><strong>General Secretary</strong> – CISSEC Faculty INEC (July 2024)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>CyberGuardian:</strong> A lightweight, cost-effective cybersecurity toolkit for small businesses to detect and respond to threats.</li>
-            <li><strong>Jaundice in Newborns:</strong> Used Power BI to analyze key risk factors and treatment recommendations based on dataset trends.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Education</h2>
-        <p><strong>University of Ilorin</strong> – B.Sc. Computer Science (2022 - 2026) <br>
-        CGPA: 3.12 / 5.00</p>
-        <p>Relevant Coursework: Network Security, Data Structures, System Analysis, Cybersecurity Principles</p>
-    </section>
-
-    <section>
-        <h2>Certifications</h2>
-        <ul>
-            <li>Certificate in Data Analysis – May 2025</li>
-            <li>General Secretary of CISSEC – July 2024</li>
-            <li>Currently pursuing: Google Cybersecurity & Python for Cybersecurity (Coursera)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Languages</h2>
-        <p>English, Yoruba</p>
-    </section>
+  </div>  <footer>
+    <p>&copy; 2025 Ajayi Temitayo Eniola. All rights reserved.</p>
+  </footer>
 </body>
 </html>
